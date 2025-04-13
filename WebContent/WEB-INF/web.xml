@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>servlets.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitQuizServlet</servlet-name>
+        <servlet-class>servlets.SubmitQuizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitQuizServlet</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+</web-app>
